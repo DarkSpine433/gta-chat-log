@@ -11,9 +11,10 @@
     "test": "vitest run",
     "lint": "eslint",
     "format": "prettier",
-    "check": "prettier --write . && eslint --fix"
+    "check": "prettier --write . && eslint --fix",
   },
   "dependencies": {
+    "@cloudflare/vite-plugin": "^1.21.0",
     "@lexical/html": "^0.39.0",
     "@lexical/react": "^0.39.0",
     "@lexical/rich-text": "^0.39.0",

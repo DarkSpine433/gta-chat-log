@@ -6,6 +6,7 @@ import viteTsConfigPaths from 'vite-tsconfig-paths'
 import { fileURLToPath, URL } from 'url'
 
 import tailwindcss from '@tailwindcss/vite'
+import { cloudflare } from '@cloudflare/vite-plugin'
 
 const config = defineConfig({
   resolve: {
@@ -15,6 +16,8 @@ const config = defineConfig({
   },
   plugins: [
     devtools(),
+    cloudflare({ viteEnvironment: { name: 'ssr' } }),
+    // this is the plugin that enables path aliases
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
     }),
