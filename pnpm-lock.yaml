@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@cloudflare/vite-plugin':
-        specifier: ^1.13.8
+        specifier: ^1.21.0
         version: 1.21.0(vite@7.3.1(@types/node@22.19.7)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.21.0))(workerd@1.20260114.0)(wrangler@4.59.2)
       '@lexical/html':
         specifier: ^0.39.0
@@ -130,7 +130,7 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0
       wrangler:
-        specifier: ^4.40.3
+        specifier: ^4.59.2
         version: 4.59.2
 
 packages:
