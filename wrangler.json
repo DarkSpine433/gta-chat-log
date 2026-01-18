@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gta-chat-log",
+  "pages_build_output_dir": "./dist/client",
+  "compatibility_date": "2024-11-01"
+}
